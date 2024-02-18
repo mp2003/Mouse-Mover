@@ -1,0 +1,19 @@
+@import "./partials/var";
+@import "./partials/fonts";
+@import "./mixin";
+@import "./partials/cursor";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: yellow;
+  // color: $primary-color;
+  @include Font-Comp("Orbitron", 2.9rem, 500, black);
+  cursor: none;
+}
+
+body {
+  @include FlexBox;
+  height: 100vh;
+  // position: relative;
+}

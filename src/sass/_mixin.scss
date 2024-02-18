@@ -1,0 +1,17 @@
+@mixin Font-Comp(
+  $fontFamily: "Arial",
+  $fontSize: 14px,
+  $fontWeight: normal,
+  $fontColor: #fff
+) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $fontColor;
+  font-weight: $fontWeight;
+}
+
+@mixin FlexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

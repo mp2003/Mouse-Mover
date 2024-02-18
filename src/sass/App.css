@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Nabla&family=Orbitron&display=swap");
+.cursor {
+  background: #000;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: yellow;
+  font-family: "Orbitron";
+  font-size: 2.9rem;
+  color: black;
+  font-weight: 500;
+  cursor: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=App.css.map */
